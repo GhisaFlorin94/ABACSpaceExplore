@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace SpaceExplorePlanetService
+namespace SpaceExploreCrewService
 {
     public class Startup
     {
@@ -25,10 +25,6 @@ namespace SpaceExplorePlanetService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.ConfigureDI();
-            services.AddCors(options => {
-                options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-            });
             services.AddControllers().AddNewtonsoftJson(options =>
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
@@ -43,8 +39,6 @@ namespace SpaceExplorePlanetService
             }
 
             app.UseRouting();
-
-            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 

@@ -10,7 +10,6 @@ namespace SpaceExplorePlanetService.DataLayer
     public class PlanetServiceDBContext : DbContext
     {
         public DbSet<Planet> Planets { get; set; }
-        public DbSet<Description> Descriptions { get; set; }
         public DbSet<Robot> Robots { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

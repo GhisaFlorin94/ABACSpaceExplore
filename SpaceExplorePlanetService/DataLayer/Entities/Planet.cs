@@ -12,9 +12,8 @@ namespace SpaceExplorePlanetService.DataLayer.Entities
         public int PlanetId { get; set; }
         public string Name { get; set; }
         public string ImageUrl { get; set; }
-        public int? DescriptionId { get; set; }
-        public Description Description { get; set; }
-        public virtual List<Robot> ExploreRobots {get; set; }
+        public string Description { get; set; }
+        public int? CrewId { get; set; }
         public PlanetStatus PlanetStatus { get; set; }
     }
 }

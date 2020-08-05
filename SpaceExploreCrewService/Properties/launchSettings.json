@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5011",
+      "applicationUrl": "http://localhost:5012/api/crew",
       "sslPort": 0
     }
   },
@@ -12,16 +12,16 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/planets",
+      "launchUrl": "",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SpaceExplorePlanetService": {
+    "SpaceExploreCrewService": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "",
-      "applicationUrl": "http://localhost:5011",
+      "applicationUrl": "http://localhost:5012",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceExplorePlanetService", "SpaceExplorePlanetService\SpaceExplorePlanetService.csproj", "{3C060DF1-2AB9-4A9F-9AC1-3776E130BB2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateWay", "ApiGateWay\ApiGateWay.csproj", "{0B93155F-A29C-4CAF-AC95-586F74276C11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateWay", "ApiGateWay\ApiGateWay.csproj", "{0B93155F-A29C-4CAF-AC95-586F74276C11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceExploreCrewService", "SpaceExploreCrewService\SpaceExploreCrewService.csproj", "{73879C39-9C88-474F-AB45-F41BB85156A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0B93155F-A29C-4CAF-AC95-586F74276C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B93155F-A29C-4CAF-AC95-586F74276C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B93155F-A29C-4CAF-AC95-586F74276C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73879C39-9C88-474F-AB45-F41BB85156A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73879C39-9C88-474F-AB45-F41BB85156A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73879C39-9C88-474F-AB45-F41BB85156A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73879C39-9C88-474F-AB45-F41BB85156A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
